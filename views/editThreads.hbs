@@ -1,0 +1,29 @@
+<header>
+  <link rel="stylesheet" href="./stylesheets/editThreads.css">
+</header>
+
+<body style="background-color: #F7A61A">
+  <div class="titre" style="text-align:center">
+    <h1>BIENVENUE SUR LA PAGE D'EDITION DE FILS DE DISCUTIONS</h1>
+    <h3>Pour modifier votre fil de discussion, </br> veuillez modifier les champs ci-dessous puis appuyer sur le bouton
+      envoi. </h3>
+  </div>
+  <div class="form" style="text-align:center">
+    <form action="/editThreads/:id" method="post">
+      <label for="">Pseudo</label>
+      <input type="text" name="pseudo" value="{{thread.pseudo}}">
+
+      <label for="">Type du Forum</label>
+      <input type="text" name="type" value="{{thread.type}}">
+
+      <label for="">Nom fil de discution</label>
+      <input type="text" name="threadsName" value="{{thread.threadsName}}">
+
+      <label for="">Message</label>
+      <textarea id="msg" name="topic">{{thread.topic}}</textarea>
+
+      <button type="submit">Envoi</button>
+    </form>
+  </div>
+  {{{body}}}
+</body>

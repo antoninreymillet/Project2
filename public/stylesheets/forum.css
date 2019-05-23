@@ -1,0 +1,83 @@
+.corps {
+  background-color: #F7A61A;
+  color: black;
+  height: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bienvenue {
+  text-align: center;
+  margin-left: 50px;
+}
+
+.plateforme {
+  text-align: center;
+  margin-left: 50px;
+}
+
+.GTM {
+  text-align: center;
+  margin-left: 50px;
+}
+
+.colonne {
+  justify-content: right;
+}
+
+footer {
+  background-color: #C44E28;
+  clear: both;
+  position: relative;
+  height: 40px;
+}
+
+.col-md-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-copyright {
+  background-color: #484643;
+  color: white;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.page-footer {
+  height: 110px;
+}
+
+.footer-copyright {
+  margin-top: -65px;
+}
+
+body {
+  background-color: #F7A61A;
+}
+
+.titre {
+  text-align: center;
+}
+
+.forumTech {
+  text-align: center;
+}
+
+.forumManga {
+  text-align: center;
+
+}
+
+.forumGeek {
+  text-align: center;
+
+}
+
+.CT {
+  text-align: center;
+}

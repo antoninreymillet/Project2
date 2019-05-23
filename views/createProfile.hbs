@@ -1,0 +1,62 @@
+<header>
+    <link rel="stylesheet" href="/stylesheets/createProfile.css">
+
+</header>
+
+<body>
+    <h1 class="titre">Page de création de profil</h1>
+
+    <h2 class="bonjour">Bonjour, Veuillez remplir votre profil utilisateur.</h2>:
+    <form id="form" action="/createProfile" method="POST">
+
+        <h5>Veuillez entrer votre nom de famille:</h5>
+        <label for="Nom">Nom</label>
+        <input type="text" name="Nom"><br>
+
+        <h5>Veuillez entrer votre prénom:</h5>
+        <label for="Prenom">Prenom</label>
+        <input type="text" name="Prenom"><br>
+
+        <h5>Veuillez entrer votre age:</h5>
+        <label for="Age">Age</label>
+        <input type="number" name="Age"><br>
+
+        <h5>Veuillez entrer le nom de votre entreprise:</h5>
+        <label for="Entreprise">Entreprise</label>
+        <input type="text" name="Entreprise"><br>
+
+        <h5>Veuillez entrer votre adresse mail:</h5>
+        <label for="Email">Email</label>
+        <input type="email" name="Email"><br>
+
+        <h5>Veuillez entrer votre adresse personnelle:</h5>
+        <label for="Adresse">Adresse</label>
+        <input type="text" name="Adresse"><br>
+
+        <h5>Veuillez entrer vos doamines de collections:TECH, MANGA, GEEK :</h5>
+        <label for="DomaineCollections">DomaineCollections</label>
+        <input type="text" name="DomaineCollections"><br>
+
+        <h5>Veuillez entrer la taille approximative de votre collection:</h5>
+        <label for="TailleCollection">TailleCollection</label>
+        <input type="number" name="TailleCollection"><br>
+
+        <h5>Veuillez entrer les liens vers vos pages sociales: INSTAGRAM, FACEBOOK, TWITTER</h5>
+        <label for="PagesSociales">PagesSociales</label>
+        <input type="text" name="PagesSociales"><br>
+
+        <h5>Veuillez entrer un commentaires sur vous même:</h5>
+        <label for="Commentaires">Commentaires</label>
+        <input type="text" name="Commentaires"><br>
+
+        <h5>Veuillez entrer le pseudo que vous utiliserez le tchat si différend de votre pseudo forum:</h5>
+        <label for="Pseudo">Pseudo</label>
+        <input type="text" name="Pseudo"><br>
+
+        <h5>Veuillez entrer la signature qui apparaitra en bas de vos posts:</h5>
+        <label for="Signature">Signature</label>
+        <input type="text" name="Signature"><br>
+
+        <button type="submit">Valider le profil</button>
+        {{{body}}}
+</body>

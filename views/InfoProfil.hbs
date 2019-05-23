@@ -1,0 +1,32 @@
+<header>
+  <link rel="stylesheet" href="./stylesheets/InfoProfil.css">
+
+</header>
+
+<body style="background-color: #F7A61A">
+  <h1 style="text-align:center">Bienvenue sur votre profil personnel</h1>
+  {{#with AllProfileInfo}}
+  <h5 style="text-align:center"><u>Nom:</u> {{this.Nom}}</h5>
+  <h5 style="text-align:center"><u>Prenom:</u> {{this.Prenom}}</h5>
+  <h5 style="text-align:center"><u>Age:</u> {{this.Age}}</h5>
+  <h5 style="text-align:center"><u>Entreprise:</u> {{this.Entreprise}}</h5>
+  <h5 style="text-align:center"><u>Email:</u> {{this.Email}}</h5>
+  <h5 style="text-align:center"><u>Adresse:</u> {{this.Adresse}}</h5>
+  <h5 style="text-align:center"><u>DomaineCollections:</u> {{this.DomaineCollections}}</h5>
+  <h5 style="text-align:center"><u>TailleCollection:</u> {{this.TailleCollection}}</h5>
+  <h5 style="text-align:center"><u>PagesSociales:</u> {{this.PagesSociales}}</h5>
+  <h5 style="text-align:center"><u>Commentaires:</u> {{this.Commentaires}}</h5>
+  <h5 style="text-align:center"><u>Pseudo:</u> {{this.Pseudo}}</h5>
+  <h5 style="text-align:center"><u>MotDePasse:</u> {{this.MotDePasse}}</h5>
+  <h5 style="text-align:center"><u>Signature:</u> {{this.Signature}}</h5>
+  {{/with}}
+
+  <h4 style="margin-left:25px">Listes des fils de discussion par variétés (alpha)</h4>
+
+  <a href="/winTchat">
+    <h4 style="margin-left:25px">Liens vers le TCHAT</h4>
+  </a>
+  <h4 style="margin-left:25px">Liste d'amis (alpha)</h4>
+  <h4 style="margin-left:25px">liste ignorés (alpha)</h4>
+
+</body>

@@ -1,0 +1,31 @@
+<header>
+  <link rel="stylesheet" href="./stylesheets/createThreads.css">
+</header>
+
+<body>
+  <div class="all">
+    <h1>BIENVENUE SUR LA PAGE DE CREATION DE FILS DE DISCUTIONS</h1>
+    <h3>Pour pouvoir poster sur nos forums, veuillez remplir le formulaire ci dessous:</h3>
+    <form action="/createThreads" method="post">
+
+      <h5>Veuillez entrer votre Pseudo:</h5>
+      <label for="">Pseudo</label>
+      <input type="text" name="pseudo">
+
+      <h5>Veuillez entrer le type du forum sur lequel vous voulait poster: TECH, GEEK, MANGA:</h5>
+      <label for="">Type du Forum</label>
+      <input type="text" name="type">
+
+      <h5>Veuillez choisir un titre pour votre fil de discussion</h5>
+      <label for="">Nom fil de discution</label>
+      <input type="text" name="threadsName">
+      <div class="message">
+        <h5>Veuillez écrire votre message dans le champ ci dessous:</h5>
+        <label for="">Message</label>
+        <textarea id="msg" name="topic"></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+  </div>
+  </div>
+</body>

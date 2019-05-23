@@ -1,0 +1,16 @@
+.fenetre {
+  text-align: center;
+}
+
+body {
+  background-color: #F7A61A;
+}
+
+#zone_chat {
+  border-style: dashed;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: black;
+  margin-top: 20px;
+}

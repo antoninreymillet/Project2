@@ -1,0 +1,16 @@
+<header>
+    <link rel="stylesheet" href="./stylesheets/forumStyle.css">
+</header>
+
+<body>
+    <div class="bienvenue">
+        <h1 style="text-align:center">BIENVENUE SUR LA LISTE DES THREADS DU FORUM TECH !</h1>
+    </div>
+    <div class="TT">
+        {{#each AllTechType}}
+        <a style="font-size:24px;text-transform:uppercase" href="thread/{{this._id}}">{{this.threadsName}}</a>
+        <h5 style="font-size:12px">Created by: {{this.pseudo}}, At: {{this.created_at}}</h5>
+        <h5 style="font-size:12px">Updated at: {{this.updated_at}}</h5>
+        {{/each}}
+    </div>
+</body>
